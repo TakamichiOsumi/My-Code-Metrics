@@ -1,0 +1,57 @@
+[submodule "repos/B-Plus-Tree"]
+	path = repos/B-Plus-Tree
+	url = git@github.com:TakamichiOsumi/B-Plus-Tree.git
+[submodule "repos/TCP-Server-Library"]
+	path = repos/TCP-Server-Library
+	url = git@github.com:TakamichiOsumi/TCP-Server-Library.git
+[submodule "repos/Synchronized-Thread-Library"]
+	path = repos/Synchronized-Thread-Library
+	url = git@github.com:TakamichiOsumi/Synchronized-Thread-Library.git
+[submodule "repos/Linked-List"]
+	path = repos/Linked-List
+	url = git@github.com:TakamichiOsumi/Linked-List.git
+[submodule "repos/Distributed-Transparent-Memory"]
+	path = repos/Distributed-Transparent-Memory
+	url = git@github.com:TakamichiOsumi/Distributed-Transparent-Memory.git
+[submodule "repos/Math-Expression-Parser"]
+	path = repos/Math-Expression-Parser
+	url = git@github.com:TakamichiOsumi/Math-Expression-Parser.git
+[submodule "repos/Stack"]
+	path = repos/Stack
+	url = git@github.com:TakamichiOsumi/Stack.git
+[submodule "repos/DB-Playground"]
+	path = repos/DB-Playground
+	url = git@github.com:TakamichiOsumi/DB-Playground.git
+[submodule "repos/CircularByteBuffer"]
+	path = repos/CircularByteBuffer
+	url = git@github.com:TakamichiOsumi/CircularByteBuffer.git
+[submodule "repos/Glued-Doubly-Linked-List"]
+	path = repos/Glued-Doubly-Linked-List
+	url = git@github.com:TakamichiOsumi/Glued-Doubly-Linked-List.git
+[submodule "repos/Read-Write-Locks"]
+	path = repos/Read-Write-Locks
+	url = git@github.com:TakamichiOsumi/Read-Write-Locks.git
+[submodule "repos/Env"]
+	path = repos/Env
+	url = git@github.com:TakamichiOsumi/Env.git
+[submodule "repos/Notification-Chain"]
+	path = repos/Notification-Chain
+	url = git@github.com:TakamichiOsumi/Notification-Chain.git
+[submodule "repos/Thread-Safe-CRUD"]
+	path = repos/Thread-Safe-CRUD
+	url = git@github.com:TakamichiOsumi/Thread-Safe-CRUD.git
+[submodule "repos/Recursive-Mutex"]
+	path = repos/Recursive-Mutex
+	url = git@github.com:TakamichiOsumi/Recursive-Mutex.git
+[submodule "repos/Strict-Alternation"]
+	path = repos/Strict-Alternation
+	url = git@github.com:TakamichiOsumi/Strict-Alternation.git
+[submodule "repos/Dining-Philosophers"]
+	path = repos/Dining-Philosophers
+	url = git@github.com:TakamichiOsumi/Dining-Philosophers.git
+[submodule "repos/Multi-Threaded-Queue"]
+	path = repos/Multi-Threaded-Queue
+	url = git@github.com:TakamichiOsumi/Multi-Threaded-Queue.git
+[submodule "repos/Event-Listener"]
+	path = repos/Event-Listener
+	url = git@github.com:TakamichiOsumi/Event-Listener.git
