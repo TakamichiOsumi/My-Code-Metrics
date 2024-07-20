@@ -1,0 +1,191 @@
+Entering 'repos/B-Plus-Tree'
+commit e76584332b13c9e80009802509c3c3ea2c6a2b26
+Author: Takamichi Osumi <takamichiosumi01@gmail.com>
+Date:   Sat Jun 1 17:01:32 2024 +0900
+
+    Conducted some trivial refacotrings and started the removal tests for three depth tree.
+
+ b_plus_tree.c       | 33 ++++++++++++---------------------
+ test/test_bpt_app.c |  4 ++++
+ 2 files changed, 16 insertions(+), 21 deletions(-)
+Entering 'repos/CircularByteBuffer'
+commit 6be45652170b832a970b32077b7d952398a9fd1b
+Author: Takamichi Osumi <takamichiosumi01@gmail.com>
+Date:   Tue Apr 2 11:31:53 2024 +0900
+
+    Suppress standard output for debugging internal write/read.
+
+ CircularByteBuffer.c | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+Entering 'repos/DB-Playground'
+commit 5583b7e011efe5bc70947b218dae8b351c49b7a0
+Author: Takamichi Osumi <takamichiosumi01@gmail.com>
+Date:   Tue Apr 30 13:35:40 2024 +0900
+
+    Parse the 'create table' command and save the parsed info into 'sql_create_data' struct.
+
+ Core/SqlConst.h      |  9 +++++
+ Core/SqlCreate.c     | 28 ++++++++++++++++
+ Core/SqlCreate.h     | 21 ++++++++++++
+ Makefile             |  4 +--
+ SqlCreateParserCFG.c | 94 +++++++++++++++++++++++++++++++++++++++-------------
+ SqlParserMain.c      |  9 ++++-
+ 6 files changed, 139 insertions(+), 26 deletions(-)
+Entering 'repos/Dining-Philosophers'
+commit ce2f52af8fb8fb58ce94b607f062205a479c3f12
+Author: Takamichi Osumi <takamichiosumi01@gmail.com>
+Date:   Thu Jan 18 10:08:41 2024 +0900
+
+    Implemented philosopher threads to meet the constraints.
+
+ .gitignore |   6 ++
+ Makefile   |  13 +++++
+ README.md  |   9 ++-
+ din_ph.c   | 190 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ din_ph.h   |  21 +++++++
+ 5 files changed, 238 insertions(+), 1 deletion(-)
+Entering 'repos/Distributed-Transparent-Memory'
+commit ddad89be698799f326b84f901c88b0d49d4ef2b3
+Author: Takamichi Osumi <takamichiosumi01@gmail.com>
+Date:   Tue May 7 19:33:35 2024 +0900
+
+    Move an configuration example from readme to source comments.
+
+ DistributedTransparentMemory.c | 20 ++++++++++++++++++++
+ README.md                      | 11 -----------
+ 2 files changed, 20 insertions(+), 11 deletions(-)
+Entering 'repos/Env'
+commit f9924d1d8fe7c50dc8e670554ec48ccaf987fbb5
+Author: Takamichi Osumi <takamichiosumi01@gmail.com>
+Date:   Fri Mar 8 22:48:21 2024 +0900
+
+    Update search comfortability by swiper and ivy/counsel.
+
+ .emacs | 7 +++++++
+ 1 file changed, 7 insertions(+)
+Entering 'repos/Event-Listener'
+commit 649d4eb9132e6e16b8dcf13bc180d678dff18984
+Author: Takamichi Osumi <takamichiosumi01@gmail.com>
+Date:   Sun Jan 14 09:30:51 2024 +0900
+
+    Trivial wording change of README.
+
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Entering 'repos/Glued-Doubly-Linked-List'
+commit cbbed9b8816b98c7abc78637a1f56d2c0ff9a136
+Author: Takamichi Osumi <takamichiosumi01@gmail.com>
+Date:   Wed Mar 13 08:15:13 2024 +0900
+
+    Make readme easier to read.
+
+ README.md | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+Entering 'repos/Linked-List'
+commit af12e751b01200cb8a15646adc04a67ae5c2517d
+Author: Takamichi Osumi <takamichiosumi01@gmail.com>
+Date:   Tue May 28 09:10:47 2024 +0900
+
+    Added a new API, ll_has_key().
+
+ linked_list.c           | 23 +++++++++++++++++++++++
+ linked_list.h           |  1 +
+ test/test_linked_list.c | 24 ++++++++++++++++++++++++
+ 3 files changed, 48 insertions(+)
+Entering 'repos/Math-Expression-Parser'
+commit fca732d80709dc0f9705aecad55912b90ea0bb96
+Author: Takamichi Osumi <takamichiosumi01@gmail.com>
+Date:   Thu May 2 07:31:18 2024 +0900
+
+    Make app_evaluate_failure_test() exit if the evaluation result is not same as the expectation.
+
+ application.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+Entering 'repos/Multi-Threaded-Queue'
+commit 422a07f85935e9cb3d864a94c945898f3a9455aa
+Author: Takamichi Osumi <takamichiosumi01@gmail.com>
+Date:   Wed Jan 17 18:28:22 2024 +0900
+
+    Correct trivial whitespace issues.
+
+ app_test_queue.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+Entering 'repos/Notification-Chain'
+commit 3bc2d76d10bcf9df0a00c8554b676cb7e322b785
+Author: Takamichi Osumi <takamichiosumi01@gmail.com>
+Date:   Sat Mar 2 23:11:23 2024 +0900
+
+    Adjusted the first explanation of this project in readme.
+
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Entering 'repos/Read-Write-Locks'
+commit 02d749b1e3acc96a78357805a965dbe07310cd8d
+Author: Takamichi Osumi <takamichiosumi01@gmail.com>
+Date:   Wed Mar 13 07:58:06 2024 +0900
+
+    Update .gitignore to exclude tags file and executables of tests.
+
+ .gitignore | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Entering 'repos/Recursive-Mutex'
+commit 5010f94c6a8a1a28896bc37273368541b0bd2afe
+Author: Takamichi Osumi <takamichiosumi01@gmail.com>
+Date:   Fri Jan 26 14:39:40 2024 +0900
+
+    Improve the test contents.
+
+ Makefile         |  3 +--
+ test_rec_mutex.c | 28 +++++++++++++++++-----------
+ 2 files changed, 18 insertions(+), 13 deletions(-)
+Entering 'repos/Stack'
+commit b0d6901e11d2e69c86e248638e4bf683dd564790
+Author: Takamichi Osumi <takamichiosumi01@gmail.com>
+Date:   Tue Apr 30 17:52:48 2024 +0900
+
+    Stop tracking executable or files for development.
+
+ .gitignore | 6 ++++++
+ 1 file changed, 6 insertions(+)
+Entering 'repos/Strict-Alternation'
+commit 24e2bf45622ecba0e8ce43e4c744f3404fe150e1
+Author: Takamichi Osumi <takamichiosumi01@gmail.com>
+Date:   Fri Jan 19 11:15:23 2024 +0900
+
+    My strict alternation program with DispatchSemaphore.
+
+ README.md            |  8 ++++++-
+ strict_alternation.c | 64 ++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 71 insertions(+), 1 deletion(-)
+Entering 'repos/Synchronized-Thread-Library'
+commit 632d68d61faec2fcaeaecf433825b1c339620cb6
+Author: Takamichi Osumi <takamichiosumi01@gmail.com>
+Date:   Fri May 31 18:41:52 2024 +0900
+
+    Minor update of readme.
+
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Entering 'repos/TCP-Server-Library'
+commit ba3ce7916ccccd99052039663d8bcfd09b5c0d4b
+Author: Takamichi Osumi <takamichiosumi01@gmail.com>
+Date:   Fri May 31 20:45:10 2024 +0900
+
+    Isolate test scripts in a directory.
+
+ Makefile                                           | 18 ++++++++++++------
+ client_application.c => tests/client_application.c |  2 +-
+ server_application.c => tests/server_application.c | 10 ++++++++--
+ test_TcpClientUtil.c => tests/test_TcpClientUtil.c |  2 +-
+ 4 files changed, 22 insertions(+), 10 deletions(-)
+Entering 'repos/Thread-Safe-CRUD'
+commit b6ba90c6c9afb2687071554599a2e8b7e936f677
+Author: Takamichi Osumi <takamichiosumi01@gmail.com>
+Date:   Wed Feb 7 07:58:07 2024 +0900
+
+    Updated the submodule commit id for rw_locks.
+
+ Makefile         | 2 +-
+ Read-Write-Locks | 2 +-
+ employee_crud.c  | 3 ---
+ 3 files changed, 2 insertions(+), 5 deletions(-)
